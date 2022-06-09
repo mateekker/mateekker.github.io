@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My webpage</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      main li{
+            list-style: none;
+      }  
+      .hidden{
+          display: none !important;
+      }
+      .dropdown{
+          float: right;
+          cursor: pointer;
+          font-size: 1em;
+      }
+      .collapsible.collapsed{
+        display: none !important;
+      }
+    </style>
+</head>
+<body>    
+    <header>        
+            <img class="logo" src="images/NHL.svg"/>
+            <span>
+                NHL-FanPage
+            </span>
+
+    </header>
+    <nav>
+            <a href="index.html">History</a>
+            <a href="teams.html">Teams</a>
+            <a href="players.html">Top Players</a>
+            <a href="aboutme.html">About me</a>
+    </nav>
+    <main>
+        <h1>The Greatest Players</h1>
+        <ul>
+            <li class="posts">
+                <h2>
+                    <span>Forwards</span>
+                    <span class="dropdown" data-target="forwards">
+                        <i class="fa-solid fa-circle-chevron-up icon-up hidden"></i>
+                        <i class="fa-solid fa-circle-chevron-down icon-down"></i>
+                    </span>
+                </h2>
+                <div id="forwards" class="collapsible collapsed">
+                    <ul>
+                        <li>
+                            <a href="https://www.nhl.com/news/bobby-clarke-100-greatest-nhl-hockey-players/c-284697838?tid=283865022">
+                                Bobby Clarke
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.nhl.com/news/sidney-crosby-100-greatest-nhl-hockey-players/c-285858064?tid=283865022">
+                                'Sid the Kid'-Sidney Crosby
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.nhl.com/news/pavel-datsyuk-100-greatest-nhl-hockey-players/c-285951634?tid=283865022">
+                                Pavel Datsyuk
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.nhl.com/news/marcel-dionne-100-greatest-nhl-hockey-players/c-284853626?tid=283865022">
+                                'Offensive Genius'-Marcel Dionne
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.nhl.com/news/phil-esposito-100-greatest-nhl-hockey-players/c-284852638?tid=283865022">
+                                Phil Esposito
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.nhl.com/news/peter-forsberg-100-greatest-nhl-hockey-players/c-285841924?tid=283865022">
+                                Peter Forsberg
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.nhl.com/news/ron-francis-100-greatest-nhl-hockey-players/c-285371266?tid=283865022">
+                                'Captian Class'-Ron Francis
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.nhl.com/news/bob-gainey-100-greatest-nhl-hockey-players/c-285360444?tid=283865022">
+                                Bob Gainey
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.nhl.com/news/mike-gartner-100-greatest-nhl-hockey-players/c-285167474?tid=283865022">
+                                Mike Gartner
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.nhl.com/news/wayne-gretzky-100-greatest-nhl-hockey-players/c-285574558?tid=283865022">
+                                'The Great One'- Wayne Gretzky
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.nhl.com/news/gordie-howe-100-greatest-nhl-hockey-players/c-284319450?tid=283865022">
+                                'Mr. Hockey'-Gordie Howe
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.nhl.com/news/bobby-hull-100-greatest-nhl-hockey-players/c-283864624?tid=283865022">
+                                Bobby Hull
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.nhl.com/news/jaromir-jagr-100-greatest-nhl-hockey-players/c-285901906?tid=283865022">
+                                'Second on NHL points list'-Jaromir Jagr
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.nhl.com/news/patrick-kane-100-greatest-nhl-hockey-players/c-285716138?tid=283865022">
+                                Patrick Kane
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.nhl.com/news/guy-lafleur-100-greatest-nhl-hockey-players/c-285497510?tid=283865022">
+                                'The Flower'-Guy Lafleur
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.nhl.com/news/mario-lemieux-100-greatest-nhl-hockey-players/c-285046570?tid=283865022">
+                                'Super Mario'-Mario Lemieux
+                            </a>
+                        </li>
+                        <a href="https://www.nhl.com/news/stan-mikita-100-greatest-nhl-hockey-players/c-284857174?tid=283865022">
+                            Stan Mikita
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.nhl.com/news/dickie-moore-100-greatest-nhl-hockey-players/c-283935452?tid=283865022">
+                            Dickie Moore
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.nhl.com/news/alex-ovechkin-100-greatest-nhl-hockey-players/c-285711898?tid=283865022">
+                            Alexander Ovechkin
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.nhl.com/news/henri-richard-100-greatest-nhl-hockey-players/c-284216886?tid=283865022">
+                            'Pocket Rocket'-Henri Richard
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.nhl.com/news/maurice-richard-100-greatest-nhl-hockey-players/c-284176856?tid=283865022">
+                            'Rocket'-Maurice Richard
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.nhl.com/news/peter-stastny-100-greatest-nhl-hockey-players/c-285607424?tid=283865022">
+                            Peter Stastny
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.nhl.com/news/mats-sundin-100-greatest-nhl-hockey-players/c-285390234?tid=283865022">
+                            Mats Sundin
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.nhl.com/news/steve-yzerman-100-greatest-nhl-hockey-players/c-285492334?tid=283865022">
+                            'Ultimate Captian'-Steve Yzerman
+                        </a>
+                    </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="posts">
+                <h2>
+                    <span>Defense</span>
+                    <span class="dropdown" data-target="defense">
+                        <i class="fa-solid fa-circle-chevron-up icon-up hidden"></i>
+                        <i class="fa-solid fa-circle-chevron-down icon-down"></i>
+                    </span>
+                </h2>
+                <div id="defense" class="collapsible collapsed">
+                    <ul>
+                        <li>
+                            <a href="https://www.nhl.com/news/ray-bourque-100-greatest-nhl-hockey-players/c-285594564?tid=283865022">
+                                Ray Borque
+                            </a>                            
+                        </li>
+                        <li>
+                            <a href="https://www.nhl.com/news/tony-esposito-100-greatest-nhl-hockey-players/c-285046032?tid=283865022">
+                                Tony Esposito
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.nhl.com/news/tim-horton-100-greatest-nhl-hockey-players/c-283941014?tid=283865022">
+                                'Strongest player in hockey'-Tim Horton
+                            </a>
+                        </li>
+                        <li>
+                        <li>
+                            <a href="https://www.nhl.com/news/scott-niedermayer-100-greatest-nhl-hockey-players/c-285736822?tid=283865022">
+                                Scott Niedermayer
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.nhl.com/news/bobby-orr-100-greatest-nhl-hockey-players/c-285636896?tid=283865022">
+                                Bobby Orr
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="posts">
+                <h2>
+                    <span>Goalies</span>
+                    <span class="dropdown" data-target="goalies">
+                        <i class="fa-solid fa-circle-chevron-up icon-up hidden"></i>
+                        <i class="fa-solid fa-circle-chevron-down icon-down"></i>
+                    </span>
+                </h2>
+                <div id="goalies" class="collapsible collapsed">
+                    <ul>
+                        <li>
+                            <a href="https://www.nhl.com/news/martin-brodeur-100-greatest-nhl-hockey-players/c-285720200?tid=283865022">
+                                Martin Brodeur
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.nhl.com/news/dominik-hasek-100-greatest-nhl-hockey-players/c-284696256?tid=283865022">
+                                'The Dominator'-Dominik Hasek
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.nhl.com/news/patrick-roy-100-greatest-nhl-hockey-players/c-285562320?tid=283865022">
+                                Patrick Roy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.nhl.com/news/terry-sawchuk-100-greatest-nhl-hockey-players/c-284174960?tid=283865022">
+                                Terry Sawchuk
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.nhl.com/news/billy-smith-100-greatest-nhl-hockey-players/c-284882492?tid=283865022">
+                                'Battlin'-Billy Smith</a>
+                        </li>
+                        <li>
+                            <a href="https://www.nhl.com/news/georges-vezina-100-greatest-nhl-hockey-players/c-284228760?tid=283865022">
+                                Georges Vezina - The Vezina goaltending trophy named after him
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>        
+    
+    </main>
+    <script defer type="text/javascript" src="players.js"></script>
+</body>
+</html>
+
